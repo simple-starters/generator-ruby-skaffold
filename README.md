@@ -1,6 +1,6 @@
-# Simple generator for Ruby deployment with Kubernetes resources
+# Simple generator for web application deployment with Kubernetes resources
 
-This generator creates the Kubernetes `service` and `deployment` resources files to deploy a Spring Boot application using Skaffold with the generated `skaffold.yaml`
+This generator creates the Kubernetes `service` and `deployment` resources files to deploy a generic web application, listening on port 8080, using Skaffold with the generated `skaffold.yaml`
 
 You will need to install the following command line tool:
 
@@ -64,7 +64,9 @@ skaffold delete
 ### Generator installation
 
 ```bash
-tss generator install --go-getter-url=github.com/trisberg/generator-ruby-skaffold
+tss generator install --go-getter-url=github.com/trisberg/generator-
+
+-skaffold
 ```
 
 To use the install command you need to install [go-getter](https://github.com/hashicorp/go-getter#installation-and-usage) CLI.
