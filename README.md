@@ -64,9 +64,7 @@ skaffold delete
 ### Generator installation
 
 ```bash
-tss generator install --go-getter-url=github.com/trisberg/generator-
-
--skaffold
+tss generator install --go-getter-url=github.com/simple-starters/generator-web-app-skaffold
 ```
 
 To use the install command you need to install [go-getter](https://github.com/hashicorp/go-getter#installation-and-usage) CLI.
